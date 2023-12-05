@@ -3,7 +3,7 @@ package com.bamboo.util;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 
-public class ExceptionToStringExample {
+public class ExceptionToString {
 
     public static String getStackTraceAsString(Exception e) {
         StringWriter sw = new StringWriter();
